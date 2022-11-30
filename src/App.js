@@ -9,14 +9,23 @@ function Image() {
     <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"></img>
   );
 }
+function Logo() {
+  return (
+    <header>
+      <Greeting />
+      <Image />
+    </header>
+  );
+}
+function BestPokemon() {
+  return <p>My favorite Pokemon is Squirtle</p>;
+}
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <Greeting />
-        <Image />
-      </header>
+      <Logo />
+      <BestPokemon />
     </div>
   );
 }
