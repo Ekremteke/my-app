@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
 function Greeting() {
@@ -6,7 +6,10 @@ function Greeting() {
 }
 function Image() {
   return (
-    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"></img>
+    <img
+      src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+      alt="pokemon"
+    ></img>
   );
 }
 function Logo() {
